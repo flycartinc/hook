@@ -2,8 +2,6 @@
 
 namespace FlycartHook;
 
-use \Herbert\Framework\Application;
-
 class Action extends ActionSubject
 {
     /**

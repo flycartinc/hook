@@ -2,7 +2,6 @@
 
 namespace FlycartHook;
 
-use Herbert\Framework\Application;
 use Illuminate\Support\ServiceProvider;
 
 class HookServiceProvider extends ServiceProvider
