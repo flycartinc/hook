@@ -2,6 +2,8 @@
 
 namespace FlycartHook;
 
+use \Herbert\Framework\Application;
+
 class Action extends ActionSubject
 {
     /**
@@ -107,4 +109,4 @@ class Action extends ActionSubject
 
         return $this->object->$signature($this->params, $this->args);
     }
-}
+ }
